@@ -1,0 +1,14 @@
+const morning = (name) => {
+    console.log(`hello ${name} , Good Morning`)
+}
+const afternoon = (name) => {
+    console.log(`hello ${name} , Good Afternoon`)
+}
+const evening = (name) => {
+    console.log(`hello ${name} , Good Evening`)
+}
+const greet = (msg , name) => {
+    msg(name) 
+}
+
+greet(afternoon , 'felix');
